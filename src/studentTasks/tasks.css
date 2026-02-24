@@ -1,0 +1,62 @@
+.task-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.task-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px auto;
+  max-width: 900px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #aaa;
+  padding: 8px;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.task-form-row {
+  margin: 10px 0;
+}
+
+.task-form-row input,
+.task-form-row select {
+  padding: 8px;
+  width: 260px;
+  max-width: 100%;
+}
+
+.task-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.task-links a {
+  border: 1px solid #888;
+  border-radius: 6px;
+  padding: 6px 10px;
+}

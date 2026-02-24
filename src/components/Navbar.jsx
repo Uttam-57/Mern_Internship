@@ -22,7 +22,7 @@ export const Navbar = () => {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/netflixhome">
                 NEtflix Home
               </Link>
@@ -56,7 +56,67 @@ export const Navbar = () => {
               <Link class="nav-link" to="/usestatedemo3">
                 usestatedemo3
               </Link>
+            </li> */}
+            <li class="nav-item">
+              <Link class="nav-link" to="/employees">
+                employees
+              </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo1">
+                inputdemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo2">
+                inputdemo2
+              </Link>
+            </li>
+            
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo1">
+                formdemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo2">
+                formdemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo3">
+                formdemo3
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo4">
+                formdemo4
+              </Link>
+            </li>
+            
+            <li class="nav-item">
+              <Link class="nav-link" to="/apidemo1">
+                apidemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/apidemo2">
+                apidemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/omdb">
+                omdb
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/student-tasks">
+                student tasks
+              </Link>
+            </li>
+            
+
+            
           </ul>
         </div>
       </nav>
